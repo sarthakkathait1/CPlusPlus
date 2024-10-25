@@ -16,7 +16,7 @@ public:
     {
         name = "Sarthak";
         age = 19;
-        department = "School of Technology";
+        department = "Department of Computer Science";
         course = "B. Tech";
     }
 

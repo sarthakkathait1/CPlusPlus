@@ -1,20 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Student
-{
-public:
-    int a, b;
-    Student()
-    {
-        a = 20;
-        b = 30;
-    }
+inline int sum(int x, int y) {return x + y ;}
 
-    inline int sum() { return a + b; }
-};
-int main()
-{
-    Student ob;
-    cout << "Sum = " << ob.sum();
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a;
+    cin >> b;
+    cout << "Sum = " << sum(a, b);
+    
+    return 0;
 }

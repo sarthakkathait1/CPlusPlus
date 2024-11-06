@@ -16,11 +16,11 @@ class A{
         obj.a = obj.a+5;
         cout << obj.a << endl;
     }
-    void operator -(A &obj){
+    void operator --(A &obj){
         obj.a = obj.a-1;
         cout << obj.a << endl;
     }
-    void operator ~(A &obj){
+    void operator -(A &obj){
         obj.a = -(obj.a);
         cout << obj.a;
     }

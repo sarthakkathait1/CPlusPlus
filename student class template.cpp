@@ -21,7 +21,7 @@ public:
 };
 int main()
 {
-    Student obj("Sarthak", 19, "B. Tech", "Computer Science");
+    Student <string, int, string, string> obj("Sarthak", 19, "B. Tech", "Computer Science");
     obj.display();
     return 0;
 }

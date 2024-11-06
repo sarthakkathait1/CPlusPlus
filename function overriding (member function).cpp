@@ -16,7 +16,7 @@ class A{
         cout << a << endl;
     }
     void operator ~(){
-        a = ~(a);
+        a = -(a);
         cout << a;
     }
 };

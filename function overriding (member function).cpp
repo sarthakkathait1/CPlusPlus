@@ -11,11 +11,11 @@ class A{
         a = a+5;
         cout << a << endl;
     }
-    void operator -(){
+    void operator --(){
         a = a-1;
         cout << a << endl;
     }
-    void operator ~(){
+    void operator -(){
         a = -(a);
         cout << a;
     }

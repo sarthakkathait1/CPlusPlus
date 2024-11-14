@@ -9,8 +9,8 @@ class A{
         this->a = a;
     }
     friend void operator ++(A& obj);
+    friend void operator --(A& obj);
     friend void operator -(A& obj);
-    friend void operator ~(A& obj);
 };
     void operator ++(A& obj){
         obj.a = obj.a+5;

@@ -23,7 +23,7 @@ class A{
 int main() {
     A ob(8);
     ++ob;
+    --ob;
     -ob;
-    ~ob;
     return 0;
 }
